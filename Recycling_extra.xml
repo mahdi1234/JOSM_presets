@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+  <item name="Recycling extra" type="node">
+    <label text="Recycling extra" />
+    <combo key="recycling:batteries" text="Batteries" values="yes" />
+    <combo key="recycling:beverage_cartons" text="Beverage cartons/Tetra Pak" values="yes" />
+    <combo key="recycling:cooking_oil" text="Cooking oil" values="yes" />
+    <combo key="recycling:electrical_appliances" text="Electrical appliances" values="yes" />
+    <combo key="recycling:electrical_items" text="Electrical items" values="yes" />
+    <combo key="recycling:fluorescent_tubes" text="Fluorescent tubes" values="yes" />
+    <combo key="recycling:hazardous_waste" text="Hazard" values="yes" />
+    <combo key="recycling:low_energy_bulbs" text="LED tubes" values="yes" />
+    <combo key="recycling:rubble" text="Rubble" values="yes" />
+    <combo key="recycling:tyres" text="Tyres" values="yes" />
+  </item>
+</presets>
