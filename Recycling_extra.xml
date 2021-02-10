@@ -11,5 +11,6 @@
     <check key="recycling:low_energy_bulbs" text="LED tubes" default="off" delete_if_empty="true"/>
     <check key="recycling:rubble" text="Rubble" default="off" delete_if_empty="true"/>
     <check key="recycling:tyres" text="Tyres" default="off" delete_if_empty="true"/>
+    <check key="recycling:wood" text="Wood" default="off" delete_if_empty="true"/>
   </item>
 </presets>
