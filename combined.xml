@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+
+<chunk id="color">
+  <combo key="colour" text="Color (HTML name or hexadecimal code)" values="black,blue,brown,gray,green,orange,purple,red,silver,white,yellow,#CD853F" values_context="color" />
+</chunk>
+
+  <item name="Recycling extra" type="node,closedway">
+    <label text="Recycling extra" />
+    <check key="recycling:batteries" text="Batteries" default="off" delete_if_empty="true"/>
+    <check key="recycling:cooking_oil" text="Cooking oil" default="off" delete_if_empty="true"/>
+    <check key="recycling:electrical_appliances" text="Electrical appliances" default="off" delete_if_empty="true"/>
+    <check key="recycling:electrical_items" text="Electrical items" default="off" delete_if_empty="true"/>
+    <check key="recycling:fluorescent_tubes" text="Fluorescent tubes" default="off" delete_if_empty="true"/>
+    <check key="recycling:hazardous_waste" text="Hazard (colors, chemicals)" default="off" delete_if_empty="true"/>
+    <check key="recycling:low_energy_bulbs" text="LED tubes" default="off" delete_if_empty="true"/>
+    <check key="recycling:rubble" text="Rubble" default="off" delete_if_empty="true"/>
+    <check key="recycling:tyres" text="Tyres" default="off" delete_if_empty="true"/>
+    <check key="recycling:wood" text="Wood" default="off" delete_if_empty="true"/>
+  </item>
+
+  <item name="Picnic table mahdi" type="node,way" preset_name_label="true">
+    <key key="leisure" value="picnic_table" />
+    <check key="backrest" text="Backrest" />
+    <combo key="material" text="Material" values="concrete,metal,plastic,stone,wood" />
+    <reference ref="color" />
+  </item>
+
+  <item name="Emergency Access Point mahdi" type="node,closedway" preset_name_label="true">
+    <key key="highway" value="emergency_access_point" />
+    <text key="ref" text="Point Number" />
+    <text key="name" text="Point Name" />
+    <text key="operator" text="Operator" default="Lesy ČR" />
+    <text key="emergency_telephone_code" text="Emergency Phone Number" default="112" />
+  </item>
+
+  <item name="Animal feeding place" type="node">
+    <label text="Animal feeding place" />
+    <key key="amenity" value="feeding_place" />
+    <combo key="feeding:type" text="Type" values="manger,place,automated" />
+    <combo key="feeding:for" text="For" values="game,horse" />
+    <combo key="feeding:fodder" text="Fodder" values="hay,grain,hay;grain" />
+  </item>
+
+</presets>
