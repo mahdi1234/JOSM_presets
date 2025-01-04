@@ -2,7 +2,7 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
 
 <chunk id="color">
-  <combo key="colour" text="Color (HTML name or hexadecimal code)" values="black,blue,brown,gray,green,orange,purple,red,silver,white,yellow,#CD853F" values_context="color" />
+  <combo key="colour" text="Color" values="black,blue,brown,gray,green,orange,purple,red,silver,white,yellow,#CD853F" values_context="color" />
 </chunk>
 
   <item name="Recycling extra" type="node,closedway">
@@ -40,6 +40,12 @@
     <combo key="feeding:type" text="Type" values="manger,place,automated" />
     <combo key="feeding:for" text="For" values="game,horse" />
     <combo key="feeding:fodder" text="Fodder" values="hay,grain,hay;grain" />
+  </item>
+
+  <item name="Grit bin mahdi" type="node,way" preset_name_label="true">
+    <key key="amenity" value="grit_bin" />
+    <reference ref="color" />
+    <combo key="lid:colour" text="Lid color" values="black,blue,brown,gray,green,orange,purple,red,silver,white,yellow,#CD853F" values_context="color" />
   </item>
 
 </presets>
